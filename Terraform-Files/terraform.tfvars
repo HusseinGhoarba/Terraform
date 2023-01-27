@@ -1,0 +1,9 @@
+instances-name = ["public-instance","private-instance"]
+instances-type = "t2.micro"
+ami-id = "ami-00d8a762cb0c50254"
+vpc-name = "Hussein-vpc"
+gateway-name = "Hussein-gateway"
+subnet-name = ["public-subnet","private-subnet"]
+route-table-name = ["public-route-table","private-route-table"]
+nat-gateway-name = "hussein-nat-gateway"
+subnet-cidr = ["10.0.0.0/24" , "10.0.1.0/24"]
